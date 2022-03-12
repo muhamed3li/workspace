@@ -17,6 +17,7 @@ class CreateVisitorsTable extends Migration
             $table->id();
             $table->string('name');
             $table->integer('category_id');
+            $table->integer('count');
             $table->date('date');
             $table->time('time');
             $table->timestamps();

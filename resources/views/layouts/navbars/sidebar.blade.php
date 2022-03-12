@@ -5,7 +5,7 @@
       Tip 2: you can also add an image using data-image tag
   -->
   <div class="logo">
-    <a href="{{route('home')}}" class="simple-text logo-normal">
+    <a href="{{route('index')}}" class="simple-text logo-normal">
       {{ __('AMAM Station') }}
     </a>
   </div>

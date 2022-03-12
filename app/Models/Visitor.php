@@ -12,7 +12,7 @@ class Visitor extends Model
 
     protected $fillable = [
         'name',
-        'place',
+        'count',
         'date',
         'time',
         'category_id'

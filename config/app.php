@@ -1,5 +1,7 @@
 <?php
 
+use Carbon\Carbon;
+
 return [
 
     /*
@@ -67,8 +69,10 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    // 'timezone' => 'UTC',
+    // Carbon::now('Africa/Cairo'),
 
+    'timezone'        => 'Africa/Cairo',
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration

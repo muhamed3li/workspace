@@ -40,10 +40,10 @@ class VisitorController extends Controller
      */
     public function store(VisitorRequest $request)
     {
-        dd($request);
+        // dd($request);
         Visitor::create([
             'name' => $request->name,
-            'place' => $request->place,
+            'count'=>$request->count,
             'date' => $request->date,
             'time' => $request->time,
             'category_id'=> $request->category_id,

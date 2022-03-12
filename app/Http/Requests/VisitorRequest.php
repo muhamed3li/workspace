@@ -24,11 +24,11 @@ class VisitorRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'required|min:3|string',
-            'place'=>'required',
+            'name'=>'required|string',
+            'category_id'=>'required',
+            'count'=>'required',
             'date'=>'required|date',
             'time'=>'required',
-            'category_id'=>'required'
         ];
     }
 }
